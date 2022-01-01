@@ -53,10 +53,10 @@ class App extends Component {
         </div>
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/posts" element={<Posts />}></Route>
-          <Route exact path="/forms" element={<Forms />}></Route>
-          <Route exact path="/postsdetails" element={<Postsdetails />}></Route>
-          <Route exact path="/profile" element={<Profile />}></Route>
+          <Route  path="/posts" element={<Posts />}></Route>
+          <Route  path="/post/:name" element={<Postsdetails />}></Route>
+          <Route  path="/forms" element={<Forms />}></Route>
+          <Route  path="/profile" element={<Profile />}></Route>
         </Routes>
       </BrowserRouter>
     );
