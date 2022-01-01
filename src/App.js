@@ -43,9 +43,6 @@ class App extends Component {
                   <li>
                     <Link to="/forms">Forms</Link>
                   </li>
-                  <li>
-                    <Link to="/postsdetails">Postsdetails</Link>
-                  </li>
                 </ul>
               </div>
             </nav>
@@ -53,10 +50,10 @@ class App extends Component {
         </div>
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route  path="/posts" element={<Posts />}></Route>
-          <Route  path="/post/:name" element={<Postsdetails />}></Route>
-          <Route  path="/forms" element={<Forms />}></Route>
-          <Route  path="/profile" element={<Profile />}></Route>
+          <Route path="/posts" element={<Posts />}></Route>
+          <Route path="/post/:name" element={<Postsdetails />}></Route>
+          <Route path="/forms" element={<Forms />}></Route>
+          <Route path="/profile" element={<Profile />}></Route>
         </Routes>
       </BrowserRouter>
     );

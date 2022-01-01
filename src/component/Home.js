@@ -4,9 +4,9 @@ const Home = (props) => {
     return (
       <div>
         <h2>Home</h2>
-        <div class="panel panel-primary">
-          <div class="panel-heading">Home Heading</div>
-          <div class="panel-body">Home Content</div>
+        <div className="panel panel-primary">
+          <div className="panel-heading">Home Heading</div>
+          <div className="panel-body">Home Content</div>
         </div>
       </div>
     );

@@ -4,9 +4,9 @@ const Forms = (props) => {
     return (
       <div>
         <h2>Forms</h2>
-        <div class="panel panel-warning">
-          <div class="panel-heading">Forms Heading</div>
-          <div class="panel-body">Forms Content</div>
+        <div className="panel panel-warning">
+          <div className="panel-heading">Forms Heading</div>
+          <div className="panel-body">Forms Content</div>
         </div>
       </div>
     );
